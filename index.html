@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome file</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit", style="background-color: white;">
+  <div class="stackedit__left">
+    <div class="stackedit__toc">
+      
+<ul>
+<li><a href="#minecraft-java-singleplayer--for-free.-no-joke.">Minecraft Java Singleplayer,  for free. No joke.</a>
+<ul>
+<li><a href="#so-where-to-start">So, where to start?</a></li>
+<li><a href="#enough-with-the-chit-chat-where-are-the-files">Enough with the chit-chat, where are the files?</a></li>
+</ul>
+</li>
+<li><a href="#installation">Installation</a>
+<ul>
+<li></li>
+</ul>
+</li>
+<li><a href="#setup">Setup</a>
+<ul>
+<li><a href="#what-if-i-want-to-add-modsresourcepacks">What if I want to add mods/resourcepacks?</a></li>
+</ul>
+</li>
+<li><a href="#and-thats-it">And that’s it!</a></li>
+</ul>
+
+    </div>
+  </div>
+  <div class="stackedit__right">
+    <div class="stackedit__html">
+      <h1 id="minecraft-java-singleplayer--for-free.-no-joke.">Minecraft Java Singleplayer,  for free. No joke.</h1>
+<p>It’s quite bizarre writing this, you know. All those countless fake articles and youtube videos being pushed to unsuspecting viewers, and the disgrace of <a href="https://www.reddit.com/xo5rf2">TLauncher being spyware</a> has only made it worse. It might just look like I’m writing this to waste your time. But no. However suspicious I may sound, <em>all files listed here are open-source.</em> Peer-reviewed to not have malware, and free to use for all platforms. By all means, use <a href="https://www.virustotal.com/gui/home/upload">VirusTotal.</a> Try prove me wrong. This tutorial will demonstrate how to download Minecraft Java Edition on Windows, MacOS, and also Linux.</p>
+<h2 id="so-where-to-start">So, where to start?</h2>
+<p><a href="https://github.com/UltimMC/Launcher"><strong>UltimMC</strong></a>. It is a fork (aka a variation) of <a href="https://github.com/MultiMC/Launcher">MultiMC</a>, a well-known alternative to the Minecraft launcher promising to be more lightweight than the official launcher.</p>
+<h3 id="why">Why?</h3>
+<p>We use its’ fork instead of the original because the original by default requires you to connect a Microsoft account. A Microsoft account is how you register for a normal Minecraft account, and considering <a href="https://www.minecraft.net/en-us/store/minecraft-deluxe-collection-pc">that costs money,</a> it’s not suitable for what we are doing.<br>
+However, since MultiMC is open-source, someone could always just make a fork and bypass that restriction. That is what UltimMC is. A way to get Minecraft without a Microsoft account.</p>
+<h2 id="enough-with-the-chit-chat-where-are-the-files">Enough with the chit-chat, where are the files?</h2>
+<p>Alright, alright. Step by step.<br>
+Borrowing from <a href="https://github.com/UltimMC/Launcher">the UltimMC Github page:</a></p>
+<blockquote>
+<p>Direct downloads for specific platforms can be found below.</p>
+<ul>
+<li><a href="https://nightly.link/UltimMC/Launcher/workflows/main/develop/mmc-cracked-win32.zip">Windows (32-bit and 64-bit)</a>.</li>
+<li><a href="https://nightly.link/UltimMC/Launcher/workflows/main/develop/mmc-cracked-lin64.zip">Linux (64-bit)</a>.</li>
+<li><a href="https://nightly.link/UltimMC/Launcher/workflows/main/develop/mmc-cracked-osx64.zip">macOS (10.14 and newer)</a>.</li>
+<li>There’s additionally a <a href="https://nightly.link/UltimMC/ultimmc-deb/workflows/ci/master/UltimMC.zip">.deb package</a> for Debian/Ubuntu distributions.</li>
+<li>And an AUR package as <a href="https://aur.archlinux.org/packages/ultimmc-bin">ultimmc-bin</a>.</li>
+</ul>
+</blockquote>
+<p>Download the file for <em>your specific version of operating system.</em> The file should be called <code>mmc-cracked-&lt;OS&gt;.zip</code> where <code>&lt;OS&gt;</code> is your operating system (win32, osx64, lin64, etc.)</p>
+<p>If you don’t have it already, you will also need Java version 17 or higher (<a href="https://www.oracle.com/java/technologies/downloads/#java21">Java 21 listed here</a>), which can be found at these links:</p>
+<h3 id="windows">Windows</h3>
+<p>Recommended:</p>
+<blockquote>
+<p><a href="https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.msi">x64 Installer as an <em>MSI</em></a> (<a href="https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.msi.sha256">sha256</a>)<br>
+<a href="https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.exe">x64 Installer as an <em>EXE</em></a> (<a href="https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.exe.sha256">sha256</a>)</p>
+</blockquote>
+<h3 id="macos">MacOS</h3>
+<p>Recommended:</p>
+<blockquote>
+<p><a href="https://download.oracle.com/java/21/latest/jdk-21_macos-aarch64_bin.dmg">ARM64 DMG Installer (<em>for Apple’s new</em> <strong>M1+ chips</strong>)</a> (<a href="https://download.oracle.com/java/21/latest/jdk-21_macos-aarch64_bin.dmg.sha256">sha256</a>)<br>
+<a href="https://download.oracle.com/java/21/latest/jdk-21_macos-x64_bin.dmg">x64 DMG Installer (<em>for</em> <strong>Intel-powered</strong> <em>Apple chips</em>)</a> (<a href="https://download.oracle.com/java/21/latest/jdk-21_macos-x64_bin.dmg.sha256">sha256</a>)</p>
+</blockquote>
+<h3 id="linux">Linux</h3>
+<p>Use what works.</p>
+<blockquote>
+<p><a href="https://download.oracle.com/java/21/latest/jdk-21_linux-aarch64_bin.tar.gz">ARM64 Compressed Archive</a> (<a href="https://download.oracle.com/java/21/latest/jdk-21_linux-aarch64_bin.tar.gz.sha256">sha256</a>)<br>
+<a href="https://download.oracle.com/java/21/latest/jdk-21_linux-aarch64_bin.rpm">ARM64 RPM Package</a> (<a href="https://download.oracle.com/java/21/latest/jdk-21_linux-aarch64_bin.rpm.sha256">sha256</a>) (<a href="https://linux.oracle.com/security/gpg/">OL 8 GPG Key</a>)<br>
+<a href="https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.tar.gz">x64 Compressed Archive</a> (<a href="https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.tar.gz.sha256">sha256</a>)<br>
+<a href="https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.deb">x64 Debian Package</a> (<a href="https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.deb.sha256">sha256</a>)	<br>
+<a href="https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.rpm">x64 RPM Package</a> (<a href="https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.rpm.sha256">sha256</a>) (<a href="https://linux.oracle.com/security/gpg/">OL 8 GPG Key</a>)</p>
+</blockquote>
+<h1 id="installation">Installation</h1>
+<h3 id="windows-1">Windows</h3>
+<ol>
+<li>Install Java by simply opening the <code>.exe</code> or <code>.msi</code> file you downloaded and clicking <em>next</em> until you’re done.</li>
+<li>Extract the <code>mmc-cracked-win32.zip</code> file by opening it and dragging the folder to wherever you want.</li>
+<li>Inside the UltimMC folder, run <code>UltimMC.exe</code>.</li>
+</ol>
+<h3 id="macos-1">MacOS</h3>
+<ol>
+<li>Install Java by opening the <code>.dmg</code> file, then opening the <code>.pkg</code> file inside it.</li>
+<li>Complete the steps by pressing <em>next</em> and use your computer credentials to allow the install. After you’re done, move the <code>.dmg</code> file to the bin.</li>
+<li>Double-click the <code>mmc-cracked-osx64.zip</code> file and drag UltimMC.app to your <code>Applications</code> folder.</li>
+<li>Search and open Terminal and type <code>chmod +x UltimMC.app/Contents/MacOS/UltimMC</code> to convert it into an executable.</li>
+<li>Open the UltimMC.app file.</li>
+</ol>
+<h3 id="linux-1">Linux</h3>
+<p>For installing Java 21, search on Youtube for your specific version of OS. Follow the steps there since every Linux distro is different. <em>Make sure to keep track of where your version of Java is going to be installed just in case.</em><br>
+Once you’re done:</p>
+<ol>
+<li>Extract the <code>mmc-cracked-lin64.zip</code> and open the<code>UltimMC</code> folder.</li>
+<li>Double-click the <code>UltimMC</code> file.</li>
+</ol>
+<h1 id="setup">Setup</h1>
+<ol>
+<li>Select your language, and select your installed Java version, ideally with a star next to it. <em>If it doesn’t show, navigate to where you have your Java installation. Look for any compatible files.</em></li>
+<li>Set the maximum memory that you know you’ll have free. This will make your Minecraft run faster at the expense of more memory. <strong>Make sure to not select too much for maximum and minimum since Minecraft might not run altogether and/or will drain system resources.</strong> <em>Check your computer’s free RAM under workloads.</em></li>
+<li>Continue and you should go to the main menu.</li>
+</ol>
+<p>Then:</p>
+<ul>
+<li>To add a new instance of a Minecraft version, click the <code>Add Instance</code> button on the top.</li>
+<li>Set the instance name, version, and group</li>
+<li>Double-click to run the instance for the first time. For first-time use, it will say to open the account manager. Select <code>Yes</code> and click <code>Add Local</code>. <em>Note that you can’t customize your skin. This is an inherent limitation.</em></li>
+<li>Choose your username. Can be anything, even names that are taken. <strong>You will not be able to play multiplayer since Minecraft authenticates with Microsoft accounts. This is an inherent limitation.</strong></li>
+<li>The instance should launch immediately and you’re in! Minecraft for free! :D</li>
+</ul>
+<h2 id="what-if-i-want-to-add-modsresourcepacks">What if I want to add mods/resourcepacks?</h2>
+<ul>
+<li>Click on your instance. On the right hand side click <code>Edit Instance</code>. In the right hand side of the popup, there are options to directly install Forge, Fabric (+ others) and mods for them!</li>
+<li>You can also add resource/shaderpacks, view screenshots and way more!</li>
+<li>I recommend using <a href="https://modrinth.com/">Modrinth</a> to get the mods, resource packs and shaders.</li>
+</ul>
+<h1 id="and-thats-it">And that’s it!</h1>
+<p>I hope you liked my tutorial and hope it worked!</p>
+<p>Follow me on <a href="https://www.youtube.com/@gallium-gonzollium">Youtube</a>, or alternatively hit me up on Discord (galliumgonzollium) if you have any issues with anything in here.</p>
+
+    </div>
+  </div>
+</body>
+
+</html>
